@@ -1,0 +1,46 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Intro              : https://teddysun.com/444.html
+ Version            : v2022-01-01
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : AMD EPYC 7281 16-Core Processor
+ CPU Cores          : 1
+ CPU Frequency      : 2096.060 MHz
+ CPU Cache          : 512 KB
+ Total Disk         : 8.2 GB (3.8 GB Used)
+ Total Mem          : 973 MB (132 MB Used)
+ Total Swap         : 976 MB (63 MB Used)
+ System uptime      : 139 days, 19 hour 56 min
+ Load average       : 0.15, 0.49, 0.42
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-8-amd64
+ TCP CC             : bbr
+ Virtualization     : Dedicated
+ Organization       : AS12876 ONLINE S.A.S.
+ Location           : Paris / FR
+ Region             : Île-de-France
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 228 MB/s
+ I/O Speed(2nd run) : 230 MB/s
+ I/O Speed(3rd run) : 235 MB/s
+ I/O Speed(average) : 231.0 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    99.42 Mbps        4036.68 Mbps        0.99 ms
+ Los Angeles, US  304.83 Mbps       2260.90 Mbps        142.62 ms
+ Dallas, US       233.42 Mbps       2740.82 Mbps        114.17 ms
+ Montreal, CA     232.52 Mbps       918.58 Mbps         86.47 ms
+ Paris, FR        98.71 Mbps        3523.55 Mbps        1.60 ms
+ Amsterdam, NL    100.17 Mbps       2803.13 Mbps        9.63 ms
+ Shanghai, CN     196.15 Mbps       789.37 Mbps         328.45 ms
+ Nanjing, CN      16.09 Mbps        1685.48 Mbps        310.51 ms
+ Guangzhou, CN    1.60 Mbps         61.01 Mbps          255.31 ms
+ Hongkong, CN     193.13 Mbps       1107.35 Mbps        228.01 ms
+ Seoul, KR        271.58 Mbps       580.27 Mbps         281.07 ms
+ Singapore, SG    240.22 Mbps       2086.23 Mbps        315.28 ms
+ Tokyo, JP        193.71 Mbps       905.33 Mbps         239.31 ms
+----------------------------------------------------------------------
+ Finished in        : 7 min 56 sec
+ Timestamp          : 2022-01-16 21:34:39
+----------------------------------------------------------------------
