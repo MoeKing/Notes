@@ -1,0 +1,46 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Intro              : https://teddysun.com/444.html
+ Version            : v2022-01-01
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : Intel Xeon Processor (Skylake, IBRS)
+ CPU Cores          : 1
+ CPU Frequency      : 2199.990 MHz
+ CPU Cache          : 16384 KB
+ Total Disk         : 9.9 GB (1.1 GB Used)
+ Total Mem          : 976 MB (64 MB Used)
+ Total Swap         : 0 MB (0 MB Used)
+ System uptime      : 0 days, 0 hour 33 min
+ Load average       : 0.02, 0.16, 0.18
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-10-amd64
+ TCP CC             : cubic
+ Virtualization     : KVM
+ Organization       : AS197695 Domain names registrar REG.RU, Ltd
+ Location           : Moscow / RU
+ Region             : Moscow
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 691 MB/s
+ I/O Speed(2nd run) : 851 MB/s
+ I/O Speed(3rd run) : 825 MB/s
+ I/O Speed(average) : 789.0 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    824.25 Mbps       795.24 Mbps         0.92 ms
+ Los Angeles, US  502.86 Mbps       836.52 Mbps         178.26 ms
+ Dallas, US       599.42 Mbps       796.53 Mbps         149.45 ms
+ Montreal, CA     660.57 Mbps       646.66 Mbps         120.06 ms
+ Paris, FR        770.87 Mbps       803.00 Mbps         46.01 ms
+ Amsterdam, NL    804.45 Mbps       802.22 Mbps         39.15 ms
+ Shanghai, CN     584.70 Mbps       826.26 Mbps         156.48 ms
+ Nanjing, CN      236.71 Mbps       845.10 Mbps         246.92 ms
+ Guangzhou, CN    0.66 Mbps         413.27 Mbps         237.07 ms
+ Hongkong, CN     9.98 Mbps         488.37 Mbps         273.05 ms
+ Seoul, KR        340.02 Mbps       673.93 Mbps         269.35 ms
+ Singapore, SG    475.92 Mbps       866.19 Mbps         186.58 ms
+ Tokyo, JP        108.48 Mbps       876.90 Mbps         273.55 ms
+----------------------------------------------------------------------
+ Finished in        : 6 min 50 sec
+ Timestamp          : 2022-01-19 19:08:39
+----------------------------------------------------------------------
