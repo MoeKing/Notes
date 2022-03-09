@@ -1,0 +1,43 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-02-22
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : Intel Xeon Processor (Cascadelake)
+ CPU Cores          : 1 @ 2992.968 MHz
+ CPU Cache          : 16384 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Disabled
+ Total Disk         : 23.5 GB (1.3 GB Used)
+ Total Mem          : 976.4 MB (70.9 MB Used)
+ Total Swap         : 975.0 MB (4.5 MB Used)
+ System uptime      : 0 days, 0 hour 19 min
+ Load average       : 0.20, 0.29, 0.18
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-10-amd64
+ TCP CC             : bbr
+ Virtualization     : KVM
+ Organization       : AS20473 The Constant Company, LLC
+ Location           : Madrid / ES
+ Region             : Madrid
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 911 MB/s
+ I/O Speed(2nd run) : 1.3 GB/s
+ I/O Speed(3rd run) : 1.1 GB/s
+ I/O Speed(average) : 1122.9 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    8215.19 Mbps      8725.80 Mbps        0.21 ms
+ Los Angeles, US  533.97 Mbps       3660.24 Mbps        152.04 ms
+ Dallas, US       645.39 Mbps       3673.55 Mbps        124.03 ms
+ Montreal, CA     599.67 Mbps       890.11 Mbps         102.53 ms
+ Paris, FR        3983.05 Mbps      7253.66 Mbps        20.83 ms
+ Amsterdam, NL    2879.45 Mbps      7443.21 Mbps        29.12 ms
+ Shanghai, CN     374.26 Mbps       1294.44 Mbps        222.20 ms
+ Nanjing, CN      0.32 Mbps         394.65 Mbps         346.80 ms
+ Hongkong, CN     329.65 Mbps       1314.36 Mbps        214.92 ms
+ Seoul, KR        297.40 Mbps       527.24 Mbps         241.38 ms
+----------------------------------------------------------------------
+ Finished in        : 5 min 32 sec
+ Timestamp          : 2022-03-09 11:09:02 EST
+----------------------------------------------------------------------
