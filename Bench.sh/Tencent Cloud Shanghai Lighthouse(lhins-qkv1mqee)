@@ -1,0 +1,42 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-02-22
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : AMD EPYC 7K62 48-Core Processor
+ CPU Cores          : 4 @ 2595.124 MHz
+ CPU Cache          : 512 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Disabled
+ Total Disk         : 79.7 GB (3.1 GB Used)
+ Total Mem          : 3.6 GB (171.8 MB Used)
+ System uptime      : 0 days, 0 hour 33 min
+ Load average       : 0.00, 0.04, 0.07
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-9-amd64
+ TCP CC             : cubic
+ Virtualization     : KVM
+ Organization       : AS45090 Shenzhen Tencent Computer Systems Company Limited
+ Location           : Shenzhen / CN
+ Region             : Guangdong
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 285 MB/s
+ I/O Speed(2nd run) : 278 MB/s
+ I/O Speed(3rd run) : 279 MB/s
+ I/O Speed(average) : 280.7 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    7.83 Mbps         101.96 Mbps         8.85 ms
+ Los Angeles, US  7.90 Mbps         91.06 Mbps          156.10 ms
+ Dallas, US       8.06 Mbps         1.74 Mbps           207.93 ms
+ Montreal, CA     8.07 Mbps         0.84 Mbps           232.94 ms
+ Paris, FR        8.27 Mbps         12.61 Mbps          247.75 ms
+ Amsterdam, NL    8.12 Mbps         0.84 Mbps           252.48 ms
+ Shanghai, CN     7.89 Mbps         105.56 Mbps         3.12 ms
+ Guangzhou, CN    7.72 Mbps         62.72 Mbps          26.29 ms
+ Hongkong, CN     4.42 Mbps         3.64 Mbps           34.43 ms
+ Seoul, KR        8.03 Mbps         0.90 Mbps           67.61 ms
+----------------------------------------------------------------------
+ Finished in        : 5 min 48 sec
+ Timestamp          : 2022-03-16 00:13:25 CST
+----------------------------------------------------------------------

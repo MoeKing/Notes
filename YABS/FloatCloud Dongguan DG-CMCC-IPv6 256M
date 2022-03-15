@@ -1,0 +1,57 @@
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2022-02-18                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Tue 15 Mar 2022 11:20:46 AM EDT
+
+Basic System Information:
+---------------------------------
+Processor  : QEMU Virtual CPU version 2.5+
+CPU cores  : 1 @ 1995.191 MHz
+AES-NI     : ❌ Disabled
+VM-x/AMD-V : ❌ Disabled
+RAM        : 221.5 MiB
+Swap       : 397.0 MiB
+Disk       : 7.4 GiB
+
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 62.82 MB/s   (15.7k) | 366.44 MB/s   (5.7k)
+Write      | 62.94 MB/s   (15.7k) | 368.37 MB/s   (5.7k)
+Total      | 125.76 MB/s  (31.4k) | 734.81 MB/s  (11.4k)
+           |                      |
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 474.31 MB/s    (926) | 492.01 MB/s    (480)
+Write      | 499.51 MB/s    (975) | 524.78 MB/s    (512)
+Total      | 973.83 MB/s   (1.9k) | 1.01 GB/s      (992)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed
+                |                           |                 |
+Clouvider       | London, UK (10G)          | 144 Mbits/sec   | 31.8 Mbits/sec
+Online.net      | Paris, FR (10G)           | busy            | busy
+WorldStream     | The Netherlands (10G)     | busy            | busy
+WebHorizon      | Singapore (400M)          | busy            | 341 Mbits/sec
+Clouvider       | NYC, NY, US (10G)         | 175 Mbits/sec   | 3.03 Mbits/sec
+Velocity Online | Tallahassee, FL, US (10G) | 162 Mbits/sec   | 1.56 Mbits/sec
+Clouvider       | Los Angeles, CA, US (10G) | 213 Mbits/sec   | 2.61 Mbits/sec
+Iveloz Telecom  | Sao Paulo, BR (2G)        | busy            | 47.1 Mbits/sec
+
+iperf3 Network Speed Tests (IPv6):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed
+                |                           |                 |
+Clouvider       | London, UK (10G)          | busy            | 63.6 Mbits/sec
+Online.net      | Paris, FR (10G)           | busy            | busy
+WorldStream     | The Netherlands (10G)     | busy            | 77.4 Mbits/sec
+WebHorizon      | Singapore (400M)          | busy            | 122 Mbits/sec
+Clouvider       | NYC, NY, US (10G)         | busy            | busy
+Clouvider       | Los Angeles, CA, US (10G) | 57.5 Mbits/sec  | 3.68 Mbits/sec
+
+Geekbench 5 test failed. Run manually to determine cause.
