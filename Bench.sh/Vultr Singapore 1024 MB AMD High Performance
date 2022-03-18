@@ -1,0 +1,43 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-02-22
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : AMD EPYC-Rome Processor
+ CPU Cores          : 1 @ 1996.249 MHz
+ CPU Cache          : 512 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Disabled
+ Total Disk         : 23.5 GB (1.0 GB Used)
+ Total Mem          : 976.4 MB (62.1 MB Used)
+ Total Swap         : 975.0 MB (3.5 MB Used)
+ System uptime      : 0 days, 0 hour 25 min
+ Load average       : 0.16, 0.26, 0.16
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-12-amd64
+ TCP CC             : bbr
+ Virtualization     : KVM
+ Organization       : AS13335 Cloudflare, Inc.
+ Location           : Singapore / SG
+ Region             : Singapore
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 420 MB/s
+ I/O Speed(2nd run) : 457 MB/s
+ I/O Speed(3rd run) : 478 MB/s
+ I/O Speed(average) : 451.7 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    408.14 Mbps       3621.05 Mbps        198.57 ms
+ Los Angeles, US  315.56 Mbps       351.11 Mbps         186.95 ms
+ Dallas, US       351.66 Mbps       351.32 Mbps         205.68 ms
+ Montreal, CA     270.47 Mbps       369.11 Mbps         231.70 ms
+ Paris, FR        329.52 Mbps       3148.94 Mbps        257.37 ms
+ Amsterdam, NL    459.56 Mbps       430.87 Mbps         162.38 ms
+ Shanghai, CN     47.58 Mbps        290.33 Mbps         239.99 ms
+ Nanjing, CN      0.46 Mbps         7.35 Mbps           309.06 ms
+ Hongkong, CN     428.66 Mbps       548.26 Mbps         67.40 ms
+ Seoul, KR        556.91 Mbps       433.89 Mbps         94.14 ms
+----------------------------------------------------------------------
+ Finished in        : 5 min 56 sec
+ Timestamp          : 2022-03-18 11:25:23 EDT
+----------------------------------------------------------------------
