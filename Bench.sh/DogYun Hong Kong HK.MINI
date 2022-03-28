@@ -1,0 +1,44 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-02-22
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : Intel(R) Xeon(R) CPU E5-2696 v3 @ 2.30GHz
+ CPU Cores          : 1 @ 2299.998 MHz
+ CPU Cache          : 16384 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Enabled
+ Total Disk         : 13.7 GB (1.1 GB Used)
+ Total Mem          : 976.4 MB (64.3 MB Used)
+ Total Swap         : 975.0 MB (3.5 MB Used)
+ System uptime      : 0 days, 0 hour 47 min
+ Load average       : 0.10, 0.20, 0.12
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-12-amd64
+ TCP CC             : bbr
+ Virtualization     : KVM
+ Organization       : AS55933 Cloudie Limited
+ Location           : Hong Kong / HK
+ Region             : Central and Western
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 68.8 MB/s
+ I/O Speed(2nd run) : 52.6 MB/s
+ I/O Speed(3rd run) : 52.5 MB/s
+ I/O Speed(average) : 58.0 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    31.04 Mbps        35.15 Mbps          3.01 ms
+ Los Angeles, US  31.12 Mbps        29.71 Mbps          141.01 ms
+ Dallas, US       30.71 Mbps        30.09 Mbps          169.16 ms
+ Montreal, CA     31.06 Mbps        36.84 Mbps          200.23 ms
+ Paris, FR        32.38 Mbps        30.13 Mbps          220.24 ms
+ Amsterdam, NL    32.22 Mbps        30.10 Mbps          232.32 ms
+ Shanghai, CN     31.06 Mbps        30.35 Mbps          33.97 ms
+ Nanjing, CN      30.85 Mbps        34.60 Mbps          68.56 ms
+ Guangzhou, CN    31.42 Mbps        4.27 Mbps           36.64 ms
+ Hongkong, CN     30.85 Mbps        37.80 Mbps          36.35 ms
+ Seoul, KR        31.63 Mbps        32.40 Mbps          251.30 ms
+----------------------------------------------------------------------
+ Finished in        : 6 min 10 sec
+ Timestamp          : 2022-03-20 08:26:45 EDT
+----------------------------------------------------------------------
