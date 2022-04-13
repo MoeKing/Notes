@@ -1,71 +1,71 @@
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
-#                     v2021-12-28                    #
+#                     v2022-02-18                    #
 # https://github.com/masonr/yet-another-bench-script #
 # ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 
-Wed 19 Jan 2022 11:25:14 PM CST
+Wed 06 Apr 2022 03:15:15 PM EDT
 
 Basic System Information:
 ---------------------------------
 Processor  : AMD EPYC 7551 32-Core Processor
-CPU cores  : 2 @ 1996.251 MHz
+CPU cores  : 2 @ 1996.249 MHz
 AES-NI     : ✔ Enabled
-VM-x/AMD-V : ❌ Disabled
+VM-x/AMD-V : ✔ Enabled
 RAM        : 971.1 MiB
 Swap       : 976.0 MiB
-Disk       : 48.0 GiB
+Disk       : 96.9 GiB
 
 fio Disk Speed Tests (Mixed R/W 50/50):
 ---------------------------------
 Block Size | 4k            (IOPS) | 64k           (IOPS)
   ------   | ---            ----  | ----           ----
-Read       | 6.34 MB/s     (1.5k) | 26.27 MB/s     (410)
-Write      | 6.35 MB/s     (1.5k) | 26.72 MB/s     (417)
-Total      | 12.70 MB/s    (3.1k) | 52.99 MB/s     (827)
+Read       | 12.64 MB/s    (3.1k) | 26.00 MB/s     (406)
+Write      | 12.64 MB/s    (3.1k) | 26.45 MB/s     (413)
+Total      | 25.28 MB/s    (6.3k) | 52.45 MB/s     (819)
            |                      |
 Block Size | 512k          (IOPS) | 1m            (IOPS)
   ------   | ---            ----  | ----           ----
-Read       | 24.55 MB/s      (47) | 24.00 MB/s      (23)
-Write      | 25.90 MB/s      (50) | 26.50 MB/s      (25)
-Total      | 50.45 MB/s      (97) | 50.50 MB/s      (48)
+Read       | 24.55 MB/s      (47) | 24.02 MB/s      (23)
+Write      | 25.94 MB/s      (50) | 26.51 MB/s      (25)
+Total      | 50.50 MB/s      (97) | 50.54 MB/s      (48)
 
 iperf3 Network Speed Tests (IPv4):
 ---------------------------------
 Provider        | Location (Link)           | Send Speed      | Recv Speed
                 |                           |                 |
-Clouvider       | London, UK (10G)          | 42.3 Mbits/sec  | 44.1 Mbits/sec
-Online.net      | Paris, FR (10G)           | 41.5 Mbits/sec  | 44.8 Mbits/sec
-WorldStream     | The Netherlands (10G)     | busy            | 46.3 Mbits/sec
-WebHorizon      | Singapore (400M)          | 43.6 Mbits/sec  | 46.6 Mbits/sec
-Clouvider       | NYC, NY, US (10G)         | 42.7 Mbits/sec  | 45.0 Mbits/sec
-Velocity Online | Tallahassee, FL, US (10G) | 11.7 Mbits/sec  | 34.0 Mbits/sec
-Clouvider       | Los Angeles, CA, US (10G) | 46.7 Mbits/sec  | 46.5 Mbits/sec
-Iveloz Telecom  | Sao Paulo, BR (2G)        | busy            | 38.3 Mbits/sec
+Clouvider       | London, UK (10G)          | busy            | 88.6 Mbits/sec
+Online.net      | Paris, FR (10G)           | 371 Mbits/sec   | busy
+WorldStream     | The Netherlands (10G)     | 371 Mbits/sec   | 206 Mbits/sec
+WebHorizon      | Singapore (400M)          | 435 Mbits/sec   | 129 Mbits/sec
+Clouvider       | NYC, NY, US (10G)         | 388 Mbits/sec   | 5.38 Mbits/sec
+Velocity Online | Tallahassee, FL, US (10G) | 384 Mbits/sec   | 266 Mbits/sec
+Clouvider       | Los Angeles, CA, US (10G) | 443 Mbits/sec   | 222 Mbits/sec
+Iveloz Telecom  | Sao Paulo, BR (2G)        | busy            | 11.5 Mbits/sec
 
 iperf3 Network Speed Tests (IPv6):
 ---------------------------------
 Provider        | Location (Link)           | Send Speed      | Recv Speed
                 |                           |                 |
-Clouvider       | London, UK (10G)          | 41.7 Mbits/sec  | 44.9 Mbits/sec
-Online.net      | Paris, FR (10G)           | 39.2 Mbits/sec  | 42.8 Mbits/sec
-WorldStream     | The Netherlands (10G)     | busy            | 44.4 Mbits/sec
-WebHorizon      | Singapore (400M)          | busy            | 46.3 Mbits/sec
-Clouvider       | NYC, NY, US (10G)         | 41.3 Mbits/sec  | 38.0 Mbits/sec
-Clouvider       | Los Angeles, CA, US (10G) | 42.3 Mbits/sec  | 46.3 Mbits/sec
+Clouvider       | London, UK (10G)          | 378 Mbits/sec   | 117 Mbits/sec
+Online.net      | Paris, FR (10G)           | busy            | 9.23 Mbits/sec
+WorldStream     | The Netherlands (10G)     | 360 Mbits/sec   | 28.4 Mbits/sec
+WebHorizon      | Singapore (400M)          | busy            | 7.73 Mbits/sec
+Clouvider       | NYC, NY, US (10G)         | 380 Mbits/sec   | 240 Mbits/sec
+Clouvider       | Los Angeles, CA, US (10G) | 405 Mbits/sec   | 49.7 Mbits/sec
 
 Geekbench 4 Benchmark Test:
 ---------------------------------
 Test            | Value
                 |
-Single Core     | 1718
-Multi Core      | 1551
-Full Test       | https://browser.geekbench.com/v4/cpu/16468137
+Single Core     | 1794
+Multi Core      | 1523
+Full Test       | https://browser.geekbench.com/v4/cpu/16526650
 
 Geekbench 5 Benchmark Test:
 ---------------------------------
 Test            | Value
                 |
-Single Core     | 344
-Multi Core      | 335
-Full Test       | https://browser.geekbench.com/v5/cpu/12269756
+Single Core     | 329
+Multi Core      | 328
+Full Test       | https://browser.geekbench.com/v5/cpu/14142867
