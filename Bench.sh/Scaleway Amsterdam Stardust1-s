@@ -1,45 +1,46 @@
 -------------------- A Bench.sh Script By Teddysun -------------------
- Intro              : https://teddysun.com/444.html
- Version            : v2022-01-01
+ Version            : v2022-02-22
  Usage              : wget -qO- bench.sh | bash
 ----------------------------------------------------------------------
  CPU Model          : AMD EPYC 7281 16-Core Processor
- CPU Cores          : 1
- CPU Frequency      : 2096.056 MHz
+ CPU Cores          : 1 @ 2096.056 MHz
  CPU Cache          : 512 KB
- Total Disk         : 8.2 GB (3.2 GB Used)
- Total Mem          : 973 MB (111 MB Used)
- Total Swap         : 976 MB (52 MB Used)
- System uptime      : 139 days, 18 hour 43 min
- Load average       : 0.12, 0.50, 0.43
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Enabled
+ Total Disk         : 8.1 GB (1.0 GB Used)
+ Total Mem          : 973.1 MB (58.7 MB Used)
+ Total Swap         : 977.0 MB (2.4 MB Used)
+ System uptime      : 0 days, 0 hour 21 min
+ Load average       : 0.21, 0.51, 0.37
  OS                 : Debian GNU/Linux 11
  Arch               : x86_64 (64 Bit)
- Kernel             : 5.10.0-8-amd64
+ Kernel             : 5.10.0-14-amd64
  TCP CC             : bbr
  Virtualization     : KVM
  Organization       : AS13335 Cloudflare, Inc.
  Location           : Amsterdam / NL
  Region             : North Holland
 ----------------------------------------------------------------------
- I/O Speed(1st run) : 258 MB/s
- I/O Speed(2nd run) : 275 MB/s
- I/O Speed(3rd run) : 346 MB/s
- I/O Speed(average) : 293.0 MB/s
+ I/O Speed(1st run) : 319 MB/s
+ I/O Speed(2nd run) : 409 MB/s
+ I/O Speed(3rd run) : 264 MB/s
+ I/O Speed(average) : 330.7 MB/s
 ----------------------------------------------------------------------
  Node Name        Upload Speed      Download Speed      Latency
- Speedtest.net    396.17 Mbps       376.88 Mbps         2.87 ms
- Los Angeles, US  255.22 Mbps       262.55 Mbps         138.27 ms
- Dallas, US       301.49 Mbps       314.10 Mbps         110.40 ms
- Montreal, CA     205.00 Mbps       284.62 Mbps         81.79 ms
- Paris, FR        103.97 Mbps       3263.32 Mbps        16.76 ms
- Amsterdam, NL    153.24 Mbps       371.31 Mbps         3.48 ms
- Shanghai, CN     228.53 Mbps       208.44 Mbps         295.66 ms
- Guangzhou, CN    7.61 Mbps         175.35 Mbps         281.07 ms
- Hongkong, CN     93.09 Mbps        341.26 Mbps         214.60 ms
- Seoul, KR        268.23 Mbps       313.72 Mbps         273.26 ms
- Singapore, SG    214.55 Mbps       285.17 Mbps         322.29 ms
- Tokyo, JP        183.16 Mbps       308.37 Mbps         245.93 ms
+ Speedtest.net    269.25 Mbps       3513.05 Mbps        1.02 ms
+ Los Angeles, US  242.26 Mbps       301.64 Mbps         138.22 ms
+ Dallas, US       264.94 Mbps       288.67 Mbps         110.68 ms
+ Montreal, CA     198.13 Mbps       299.40 Mbps         81.84 ms
+ Paris, FR        103.15 Mbps       3145.60 Mbps        16.33 ms
+ Amsterdam, NL    145.12 Mbps       366.03 Mbps         3.83 ms
+ Shanghai, CN     150.73 Mbps       240.03 Mbps         375.55 ms
+ Nanjing, CN      170.18 Mbps       235.73 Mbps         255.40 ms
+ Guangzhou, CN    1.02 Mbps         206.96 Mbps         278.78 ms
+ Hongkong, CN     224.97 Mbps       351.00 Mbps         206.77 ms
+ Seoul, KR        258.81 Mbps       236.17 Mbps         287.12 ms
+ Singapore, SG    301.43 Mbps       287.64 Mbps         167.36 ms
+ Tokyo, JP        213.85 Mbps       260.31 Mbps         229.33 ms
 ----------------------------------------------------------------------
- Finished in        : 7 min 10 sec
- Timestamp          : 2022-01-16 22:06:00
+ Finished in        : 7 min 28 sec
+ Timestamp          : 2022-05-18 09:53:29 EDT
 ----------------------------------------------------------------------

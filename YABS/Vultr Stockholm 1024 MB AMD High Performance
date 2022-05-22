@@ -1,0 +1,71 @@
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2022-05-06                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Sat 14 May 2022 10:42:06 AM EDT
+
+Basic System Information:
+---------------------------------
+Uptime     : 0 days, 0 hours, 0 minutes
+Processor  : AMD EPYC-Rome Processor
+CPU cores  : 1 @ 1996.248 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ❌ Disabled
+RAM        : 976.4 MiB
+Swap       : 975.0 MiB
+Disk       : 23.5 GiB
+Distro     : Debian GNU/Linux 11 (bullseye)
+Kernel     : 5.10.0-14-amd64
+
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 28.35 MB/s    (7.0k) | 158.63 MB/s   (2.4k)
+Write      | 28.36 MB/s    (7.0k) | 159.47 MB/s   (2.4k)
+Total      | 56.71 MB/s   (14.1k) | 318.11 MB/s   (4.9k)
+           |                      |
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 503.79 MB/s    (983) | 798.09 MB/s    (779)
+Write      | 530.56 MB/s   (1.0k) | 851.25 MB/s    (831)
+Total      | 1.03 GB/s     (2.0k) | 1.64 GB/s     (1.6k)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed
+                |                           |                 |
+Clouvider       | London, UK (10G)          | 6.26 Gbits/sec  | busy
+Online.net      | Paris, FR (10G)           | 6.42 Gbits/sec  | 5.35 Gbits/sec
+Hybula          | The Netherlands (40G)     | 7.71 Gbits/sec  | 5.40 Gbits/sec
+Clouvider       | NYC, NY, US (10G)         | 1.89 Gbits/sec  | 1.67 Gbits/sec
+Velocity Online | Tallahassee, FL, US (10G) | 1.62 Gbits/sec  | 1.47 Gbits/sec
+Clouvider       | Los Angeles, CA, US (10G) | 1.10 Gbits/sec  | 1.18 Gbits/sec
+
+iperf3 Network Speed Tests (IPv6):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed
+                |                           |                 |
+Clouvider       | London, UK (10G)          | 6.43 Gbits/sec  | 425 Mbits/sec
+Online.net      | Paris, FR (10G)           | 5.85 Gbits/sec  | 5.32 Gbits/sec
+Hybula          | The Netherlands (40G)     | 7.84 Gbits/sec  | 5.49 Gbits/sec
+Clouvider       | NYC, NY, US (10G)         | 1.85 Gbits/sec  | 1.93 Gbits/sec
+Clouvider       | Los Angeles, CA, US (10G) | 1.11 Gbits/sec  | 1.17 Gbits/sec
+
+Geekbench 4 Benchmark Test:
+---------------------------------
+Test            | Value
+                |
+Single Core     | 6460
+Multi Core      | 5443
+Full Test       | https://browser.geekbench.com/v4/cpu/16551757
+
+Geekbench 5 Benchmark Test:
+---------------------------------
+Test            | Value
+                |
+Single Core     | 1117
+Multi Core      | 1085
+Full Test       | https://browser.geekbench.com/v5/cpu/14902035

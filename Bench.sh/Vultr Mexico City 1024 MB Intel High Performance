@@ -1,0 +1,45 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-02-22
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : Intel Xeon Processor (Cascadelake)
+ CPU Cores          : 1 @ 2992.966 MHz
+ CPU Cache          : 16384 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Disabled
+ Total Disk         : 23.5 GB (1.0 GB Used)
+ Total Mem          : 976.4 MB (56.3 MB Used)
+ Total Swap         : 975.0 MB (1.7 MB Used)
+ System uptime      : 0 days, 0 hour 16 min
+ Load average       : 0.01, 0.18, 0.14
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-14-amd64
+ TCP CC             : bbr
+ Virtualization     : KVM
+ Organization       : AS20473 The Constant Company, LLC
+ Location           : Mexico City / MX
+ Region             : Mexico City
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 742 MB/s
+ I/O Speed(2nd run) : 1.0 GB/s
+ I/O Speed(3rd run) : 1.1 GB/s
+ I/O Speed(average) : 964.1 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    9320.66 Mbps      9412.59 Mbps        4.12 ms
+ Los Angeles, US  955.20 Mbps       8172.49 Mbps        84.75 ms
+ Dallas, US       716.96 Mbps       6935.93 Mbps        112.60 ms
+ Montreal, CA     652.96 Mbps       933.13 Mbps         66.70 ms
+ Paris, FR        582.07 Mbps       4758.38 Mbps        141.77 ms
+ Amsterdam, NL    542.87 Mbps       5056.88 Mbps        153.88 ms
+ Shanghai, CN     344.41 Mbps       2949.04 Mbps        240.96 ms
+ Nanjing, CN      276.35 Mbps       3173.42 Mbps        235.16 ms
+ Guangzhou, CN    5.70 Mbps         35.42 Mbps          377.43 ms
+ Seoul, KR        348.19 Mbps       793.74 Mbps         216.19 ms
+ Singapore, SG    335.23 Mbps       224.76 Mbps         221.74 ms
+ Tokyo, JP        380.16 Mbps       3740.20 Mbps        207.98 ms
+----------------------------------------------------------------------
+ Finished in        : 6 min 52 sec
+ Timestamp          : 2022-05-12 04:39:46 EDT
+----------------------------------------------------------------------
