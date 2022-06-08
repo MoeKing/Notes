@@ -1,0 +1,44 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-02-22
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz
+ CPU Cores          : 1 @ 2666.760 MHz
+ CPU Cache          : 16384 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Enabled
+ Total Disk         : 4.3 GB (1.3 GB Used)
+ Total Mem          : 473.1 MB (53.3 MB Used)
+ Total Swap         : 510.0 MB (14.5 MB Used)
+ System uptime      : 0 days, 0 hour 32 min
+ Load average       : 0.25, 0.74, 0.62
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-14-amd64
+ TCP CC             : bbr
+ Virtualization     : KVM
+ Organization       : AS44592 SkyLink Data Center BV
+ Location           : Monschau / DE
+ Region             : North Rhine-Westphalia
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 301 MB/s
+ I/O Speed(2nd run) : 374 MB/s
+ I/O Speed(3rd run) : 338 MB/s
+ I/O Speed(average) : 337.7 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    1232.68 Mbps      933.15 Mbps         0.47 ms
+ Los Angeles, US  487.55 Mbps       769.84 Mbps         144.72 ms
+ Dallas, US       585.66 Mbps       717.99 Mbps         121.21 ms
+ Montreal, CA     665.95 Mbps       876.99 Mbps         95.92 ms
+ Paris, FR        1794.75 Mbps      1441.06 Mbps        18.11 ms
+ Amsterdam, NL    453.70 Mbps       564.89 Mbps         157.80 ms
+ Guangzhou, CN    1.76 Mbps         12.50 Mbps          277.43 ms
+ Hongkong, CN     353.77 Mbps       409.37 Mbps         193.47 ms
+ Seoul, KR        233.40 Mbps       101.12 Mbps         273.35 ms
+ Singapore, SG    281.17 Mbps       172.69 Mbps         255.02 ms
+ Tokyo, JP        282.02 Mbps       446.89 Mbps         238.50 ms
+----------------------------------------------------------------------
+ Finished in        : 6 min 37 sec
+ Timestamp          : 2022-05-24 13:23:29 EDT
+----------------------------------------------------------------------
