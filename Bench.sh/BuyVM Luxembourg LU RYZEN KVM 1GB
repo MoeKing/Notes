@@ -1,0 +1,45 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-06-01
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : AMD Ryzen 9 3900X 12-Core Processor
+ CPU Cores          : 1 @ 3792.874 MHz
+ CPU Cache          : 512 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Enabled
+ Total Disk         : 18.6 GB (1.0 GB Used)
+ Total Mem          : 976.4 MB (51.3 MB Used)
+ Total Swap         : 975.0 MB (2.6 MB Used)
+ System uptime      : 0 days, 0 hour 16 min
+ Load average       : 0.24, 0.58, 0.39
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-15-amd64
+ TCP CC             : bbr
+ Virtualization     : KVM
+ Organization       : AS53667 FranTech Solutions
+ Location           : Bissen / LU
+ Region             : Mersch
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 1.2 GB/s
+ I/O Speed(2nd run) : 1.2 GB/s
+ I/O Speed(3rd run) : 1.2 GB/s
+ I/O Speed(average) : 1228.8 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    1016.91 Mbps      546.15 Mbps         0.96 ms
+ Los Angeles, US  426.53 Mbps       382.72 Mbps         150.97 ms
+ Dallas, US       645.79 Mbps       401.64 Mbps         120.24 ms
+ Montreal, CA     483.83 Mbps       272.60 Mbps         91.72 ms
+ Paris, FR        1014.10 Mbps      526.15 Mbps         12.40 ms
+ Amsterdam, NL    1025.93 Mbps      552.55 Mbps         12.20 ms
+ Shanghai, CN     199.60 Mbps       731.64 Mbps         249.11 ms
+ Nanjing, CN      80.53 Mbps        249.47 Mbps         260.95 ms
+ Guangzhou, CN    44.26 Mbps        46.06 Mbps          255.41 ms
+ Seoul, KR        236.52 Mbps       786.19 Mbps         279.60 ms
+ Singapore, SG    282.70 Mbps       151.81 Mbps         233.43 ms
+ Tokyo, JP        341.22 Mbps       407.99 Mbps         224.93 ms
+----------------------------------------------------------------------
+ Finished in        : 7 min 5 sec
+ Timestamp          : 2022-06-29 14:47:58 EDT
+----------------------------------------------------------------------
