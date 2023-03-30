@@ -1,0 +1,78 @@
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2023-02-27                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Mon 20 Mar 2023 12:19:00 AM CST
+
+Basic System Information:
+---------------------------------
+Uptime     : 0 days, 0 hours, 23 minutes
+Processor  : Intel Core Processor (Broadwell, IBRS)
+CPU cores  : 1 @ 2599.996 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ✔ Enabled
+RAM        : 2.9 GiB
+Swap       : 0.0 KiB
+Disk       : 19.6 GiB
+Distro     : Debian GNU/Linux 11 (bullseye)
+Kernel     : 5.10.0-21-amd64
+VM Type    : KVM
+
+Basic Network Information:
+---------------------------------
+Protocol   : IPv6
+ISP        : 1GSERVERS, LLC
+ASN        : AS14315 1GSERVERS, LLC
+Host       : Kuroit Limited
+Location   : Los Angeles, California (CA)
+Country    : United States
+
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 157.28 MB/s  (39.3k) | 1.40 GB/s    (21.9k)
+Write      | 157.69 MB/s  (39.4k) | 1.41 GB/s    (22.0k)
+Total      | 314.98 MB/s  (78.7k) | 2.81 GB/s    (43.9k)
+           |                      |
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ----
+Read       | 1.51 GB/s     (2.9k) | 1.52 GB/s     (1.4k)
+Write      | 1.59 GB/s     (3.1k) | 1.62 GB/s     (1.5k)
+Total      | 3.11 GB/s     (6.0k) | 3.14 GB/s     (3.0k)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | 989 Mbits/sec   | 809 Mbits/sec   | 138 ms
+Scaleway        | Paris, FR (10G)           | busy            | 178 Mbits/sec   | 131 ms
+NovoServe       | North Holland, NL (40G)   | 996 Mbits/sec   | busy            | 141 ms
+Uztelecom       | Tashkent, UZ (10G)        | busy            | 601 Mbits/sec   | 257 ms
+Clouvider       | NYC, NY, US (10G)         | 997 Mbits/sec   | 874 Mbits/sec   |
+Clouvider       | Dallas, TX, US (10G)      | 1.07 Gbits/sec  | 926 Mbits/sec   | 51.2 ms
+Clouvider       | Los Angeles, CA, US (10G) | 1.09 Gbits/sec  | 931 Mbits/sec   | 20.9 ms
+
+iperf3 Network Speed Tests (IPv6):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping
+-----           | -----                     | ----            | ----            | ----
+Clouvider       | London, UK (10G)          | busy            | busy            | 138 ms
+Scaleway        | Paris, FR (10G)           | 992 Mbits/sec   | 472 Mbits/sec   | 132 ms
+NovoServe       | North Holland, NL (40G)   | busy            | 648 Mbits/sec   | 141 ms
+Uztelecom       | Tashkent, UZ (10G)        | busy            | 342 Mbits/sec   | 254 ms
+Clouvider       | NYC, NY, US (10G)         | busy            | busy            |
+Clouvider       | Dallas, TX, US (10G)      | busy            | 910 Mbits/sec   | 32.6 ms
+Clouvider       | Los Angeles, CA, US (10G) | busy            | busy            | 20.8 ms
+
+Geekbench 6 Benchmark Test:
+---------------------------------
+Test            | Value
+                |
+Single Core     | 980
+Multi Core      | 989
+Full Test       | https://browser.geekbench.com/v6/cpu/607423
+
+YABS completed in 18 min 21 sec

@@ -1,0 +1,42 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2022-06-01
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : Intel Core Processor (Broadwell, IBRS)
+ CPU Cores          : 1 @ 2599.996 MHz
+ CPU Cache          : 16384 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Enabled
+ Total Disk         : 19.7 GB (1.4 GB Used)
+ Total Mem          : 2.9 GB (96.0 MB Used)
+ System uptime      : 0 days, 0 hour 12 min
+ Load average       : 0.00, 0.00, 0.00
+ OS                 : Debian GNU/Linux 11
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 5.10.0-21-amd64
+ TCP CC             : cubic
+ Virtualization     : KVM
+ Organization       : AS14315 1GSERVERS, LLC
+ Location           : Phoenix / US
+ Region             : Arizona
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 228 MB/s
+ I/O Speed(2nd run) : 259 MB/s
+ I/O Speed(3rd run) : 256 MB/s
+ I/O Speed(average) : 247.7 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    208.13 Mbps       399.54 Mbps         137.79 ms
+ Los Angeles, US  1005.80 Mbps      921.27 Mbps         9.52 ms
+ Dallas, US       1009.97 Mbps      912.87 Mbps         32.97 ms
+ Montreal, CA     203.25 Mbps       892.67 Mbps         78.09 ms
+ Paris, FR        725.51 Mbps       925.10 Mbps         148.30 ms
+ Amsterdam, NL    690.63 Mbps       789.07 Mbps         127.71 ms
+ Shanghai, CN     14.18 Mbps        393.54 Mbps         180.72 ms
+ Nanjing, CN      386.45 Mbps       818.64 Mbps         198.03 ms
+ Singapore, SG    481.76 Mbps       594.30 Mbps         184.02 ms
+ Tokyo, JP        442.99 Mbps       887.58 Mbps         171.09 ms
+----------------------------------------------------------------------
+ Finished in        : 5 min 27 sec
+ Timestamp          : 2023-03-20 00:14:00 CST
+----------------------------------------------------------------------
