@@ -1,0 +1,44 @@
+-------------------- A Bench.sh Script By Teddysun -------------------
+ Version            : v2023-06-10
+ Usage              : wget -qO- bench.sh | bash
+----------------------------------------------------------------------
+ CPU Model          : Intel(R) Xeon(R) CPU E5-1650 v3 @ 3.50GHz
+ CPU Cores          : 1 @ 3491.914 MHz
+ CPU Cache          : 15360 KB
+ AES-NI             : Enabled
+ VM-x/AMD-V         : Enabled
+ Total Disk         : 999.9 GB (10.0 GB Used)
+ Total Mem          : 1.9 GB (409.8 MB Used)
+ Total Swap         : 1024.0 MB (0 Used)
+ System uptime      : 0 days, 0 hour 4 min
+ Load average       : 0.19, 0.29, 0.15
+ OS                 : Debian GNU/Linux 12
+ Arch               : x86_64 (64 Bit)
+ Kernel             : 6.1.0-9-amd64
+ TCP CC             : cubic
+ Virtualization     : KVM
+ IPv4/IPv6          : Online / Online
+ Organization       : AS24940 Hetzner Online GmbH
+ Location           : Gunzenhausen / DE
+ Region             : Bavaria
+----------------------------------------------------------------------
+ I/O Speed(1st run) : 156 MB/s
+ I/O Speed(2nd run) : 434 MB/s
+ I/O Speed(3rd run) : 234 MB/s
+ I/O Speed(average) : 274.7 MB/s
+----------------------------------------------------------------------
+ Node Name        Upload Speed      Download Speed      Latency
+ Speedtest.net    775.04 Mbps       851.13 Mbps         8.05 ms
+ Los Angeles, US  538.73 Mbps       619.88 Mbps         158.62 ms
+ Dallas, US       640.44 Mbps       674.33 Mbps         130.56 ms
+ Montreal, CA     460.11 Mbps       514.67 Mbps         102.63 ms
+ Paris, FR        804.82 Mbps       918.80 Mbps         15.76 ms
+ Amsterdam, NL    790.01 Mbps       818.71 Mbps         11.41 ms
+ Shanghai, CN     91.41 Mbps        139.97 Mbps         177.05 ms
+ Nanjing, CN      63.94 Mbps        471.54 Mbps         206.53 ms
+ Hongkong, CN     471.28 Mbps       553.56 Mbps         185.56 ms
+ Singapore, SG    562.73 Mbps       512.12 Mbps         157.50 ms
+----------------------------------------------------------------------
+ Finished in        : 5 min 7 sec
+ Timestamp          : 2023-09-12 19:33:33 CST
+----------------------------------------------------------------------
