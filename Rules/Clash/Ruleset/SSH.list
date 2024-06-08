@@ -1,0 +1,6 @@
+# FileZilla
+PROCESS-NAME,fzsftp.exe
+# PuTTY
+PROCESS-NAME,putty.exe
+# WinSCP
+PROCESS-NAME,WinSCP.exe
