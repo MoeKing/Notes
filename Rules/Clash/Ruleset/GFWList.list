@@ -12,13 +12,14 @@ DOMAIN-SUFFIX,bookwalker.com.tw
 DOMAIN-SUFFIX,cool18.com
 DOMAIN-SUFFIX,dmhy.org
 DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,donmai.us
 DOMAIN-SUFFIX,eyny.com
 DOMAIN-SUFFIX,fygal.com
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,gelbooru.com
 DOMAIN-SUFFIX,gravatar.com
-DOMAIN-SUFFIX,hentai-anime.tv
+DOMAIN-SUFFIX,hentai.tv
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,kobo.com
 DOMAIN-SUFFIX,konachan.com
@@ -30,8 +31,11 @@ DOMAIN-SUFFIX,pornbay.org
 DOMAIN-SUFFIX,pussytorrents.org
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,syosetu.com
+DOMAIN-SUFFIX,syosetu.org
 DOMAIN-SUFFIX,teddysun.com
 DOMAIN-SUFFIX,torrentleech.org
 DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,whatsmydns.net
 DOMAIN-SUFFIX,yande.re
