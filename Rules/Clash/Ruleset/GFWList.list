@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,avistaz.to
 DOMAIN-SUFFIX,bangumi.moe
 DOMAIN-SUFFIX,bookwalker.com.tw
+DOMAIN-SUFFIX,bootstrapcdn.com
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,bsky.social
@@ -24,12 +25,15 @@ DOMAIN-SUFFIX,fygal.com
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,gelbooru.com
 DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,hentai.tv
+DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,kobo.com
 DOMAIN-SUFFIX,konachan.com
 DOMAIN-SUFFIX,level-plus.net
-DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,lightnovel.app
+DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,mobile01.com
 DOMAIN-SUFFIX,netflav5.com
 DOMAIN-SUFFIX,nyaa.si
@@ -43,7 +47,9 @@ DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,syosetu.com
 DOMAIN-SUFFIX,syosetu.org
 DOMAIN-SUFFIX,teddysun.com
+DOMAIN-SUFFIX,text.is
 DOMAIN-SUFFIX,torrentleech.org
+DOMAIN-SUFFIX,uaa.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,whatsmydns.net
