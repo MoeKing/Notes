@@ -1,0 +1,128 @@
+[AutoProxy 0.2.9]
+
+! DMM
+||dmm.co.jp
+||dmm.com
+||fanza.jp
+! GFWList
+||6park.com
+||6parkbbs.com
+||6parknews.com
+||acg.rip
+||acgnx.se
+||amazon.co.jp
+||annas-archive.pk
+||archive.org
+||bangumi.moe
+||bookwalker.com.tw
+||bsky.app
+||bsky.network
+||bsky.social
+||cool18.com
+||discuss.com.hk
+||dmhy.org
+||docker.com
+||docker.io
+||donmai.us
+||duckduckgo.com
+||eyny.com
+||fygal.com
+||gamer.com.tw
+||gelbooru.com
+||gravatar.com
+||greasyfork.org
+||hentai.tv
+||hostloc.com
+||huggingface.co
+||imgur.com
+||kobo.com
+||konachan.com
+||level-plus.net
+||linux.do
+||mega.co.nz
+||mega.io
+||mega.nz
+||missav.ws
+||mobile01.com
+||netflav5.com
+||nodeseek.com
+||nyaa.si
+||openstreetmap.org
+||pornbay.org
+||pornhub.com
+||pornhubpremium.com
+||pussytorrents.org
+||qbittorrent.org
+||sankakucomplex.com
+||steamcommunity.com
+||steampowered.com
+||syosetu.com
+||syosetu.org
+||teddysun.com
+||thepiratebay.org
+||torrentleech.org
+||uaa.com
+||v2ex.com
+||vercel.app
+||whatsmydns.net
+||xvideos.com
+||yande.re
+||z-lib.sk
+! GitHub
+||github.com
+||github.io
+||githubassets.com
+||githubusercontent.com
+! Google
+||cloudproxy.app
+||ggpht.com
+||goo.gl
+||google.com
+||googleapis.com
+||googleusercontent.com
+||googlevideo.com
+||gstatic.com
+||youtu.be
+||youtube.com
+||ytimg.com
+! Niconico
+||dmc.nico
+||nicovideo.jp
+! Pixiv
+||fanbox.cc
+||pixiv.net
+||pixiv.org
+||pixivsketch.net
+||pximg.net
+! Reddit
+||redd.it
+||reddit.com
+||redditmedia.com
+||redditstatic.com
+! Signal
+||signal.org
+||whispersystems.org
+! Telegram
+||t.me
+||telegra.ph
+||telegram.me
+||telegram.org
+! Twitter
+||t.co
+||twimg.com
+||twitter.com
+||x.com
+! Wikimedia
+||mediawiki.org
+||wikibooks.org
+||wikidata.org
+||wikifunctions.org
+||wikimedia.org
+||wikimediafoundation.org
+||wikinews.org
+||wikipedia.org
+||wikiquote.org
+||wikisource.org
+||wikiversity.org
+||wikivoyage.org
+||wiktionary.org
