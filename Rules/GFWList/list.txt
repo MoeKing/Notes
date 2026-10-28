@@ -12,6 +12,8 @@
 ||acgnx.se
 ||amazon.co.jp
 ||annas-archive.pk
+||apkmirror.com
+||apkpure.com
 ||archive.org
 ||bangumi.moe
 ||bookwalker.com.tw
@@ -78,10 +80,12 @@
 ||ggpht.com
 ||goo.gl
 ||google.com
+||googleapis.cn
 ||googleapis.com
 ||googleusercontent.com
 ||googlevideo.com
 ||gstatic.com
+||xn--ngstr-lra8j.com
 ||youtu.be
 ||youtube.com
 ||ytimg.com
